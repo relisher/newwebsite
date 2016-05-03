@@ -1,0 +1,211 @@
+html, body {
+  overflow-x: hidden; }
+
+.highlight {
+  border-bottom: 2px solid #5a2e91; }
+
+.yahoo-cold-open {
+  position: relative;
+  z-index: 1;
+  max-width: 1280px;
+  margin: 50px auto;
+  padding: 1em;
+  font-size: 16px;
+  line-height: 6em;
+  text-align: left; }
+  .yahoo-cold-open img {
+    display: inline-block;
+    vertical-align: middle;
+    max-height: 6em;
+    transition: transform .2s; }
+    .yahoo-cold-open img:hover {
+      transform: scale(3); }
+  .yahoo-cold-open big {
+    font-size: 1.5em;
+    font-family: "BWHaasText-65Medium", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
+    .yahoo-cold-open big.bigger {
+      font-size: 4em; }
+    .yahoo-cold-open big.lolbig {
+      display: inline-block;
+      vertical-align: middle;
+      font-size: 6em;
+      transition: transform .2s; }
+      .yahoo-cold-open big.lolbig:hover {
+        transition: transform 20s;
+        transform: scale(10); }
+  .yahoo-cold-open .furniture {
+    margin: 2em 0;
+    line-height: 1em;
+    font-size: 1.5em; }
+    .yahoo-cold-open .furniture p {
+      margin: 0;
+      font-family: "NHaasGroteskDSPro-55Rg", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
+
+.yahoo-cover {
+  position: relative;
+  z-index: 2;
+  margin: 50px auto;
+  padding: 1em;
+  width: 100%;
+  height: 100%; }
+  .yahoo-cover .main-flyer {
+    display: block;
+    max-width: 500px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    opacity: 0; }
+  .yahoo-cover .flyer {
+    position: absolute;
+    display: block;
+    max-width: 500px;
+    z-index: 2;
+    cursor: pointer; }
+
+.yahoo-body {
+  width: 50%;
+  max-width: 640px;
+  padding: 2em;
+  font-size: 16px;
+  line-height: 22px;
+  position: relative;
+  margin: 0 auto;
+  z-index: 3; }
+  .yahoo-body p {
+    margin: 0;
+    padding: 0;
+    text-indent: 1.8em; }
+    .yahoo-body p.section-break {
+      margin-top: 2em;
+      text-indent: 0; }
+  .yahoo-body figure {
+    margin: 1em 0; }
+    .yahoo-body figure figcaption {
+      text-align: right;
+      text-transform: uppercase;
+      font-size: .5em;
+      font-family: "NHaasGroteskDSPro-55Rg", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+      line-height: 1.1em; }
+    .yahoo-body figure.toph-right {
+      width: 50%;
+      float: right;
+      margin-right: -25%;
+      margin-left: 1em; }
+    .yahoo-body figure.toph-left {
+      width: 50%;
+      float: left;
+      margin-left: -25%;
+      margin-right: 1em; }
+      .yahoo-body figure.toph-left figcaption {
+        text-align: left; }
+  .yahoo-body .closer {
+    display: inline;
+    margin-top: -5px;
+    margin-left: 2px;
+    height: 14px; }
+  .yahoo-body .credit {
+    position: relative;
+    margin-top: 2em; }
+    .yahoo-body .credit .photo-credit {
+      margin-top: 2em;
+      font-size: .5em;
+      line-height: 1.2em;
+      font-family: "NHaasGroteskDSPro-55Rg", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+      max-width: 60em; }
+    .yahoo-body .credit .me-credit {
+      position: absolute;
+      font-size: .3em;
+      right: 0;
+      top: 0;
+      transform: rotate(-20deg);
+      width: 7em;
+      line-height: 1.2em; }
+    .yahoo-body .credit .correction {
+      font-style: italic;
+      margin-top: 1em; }
+  .yahoo-body .pullllquote {
+    font-family: "BWHaasText-65Medium", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+    font-size: 2em;
+    line-height: 1.375em;
+    margin: 1em 0; }
+  .yahoo-body .video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    padding-top: 25px;
+    height: 0; }
+    .yahoo-body .video-wrapper .video-wrapper-inner {
+      width: 100%;
+      height: 0;
+      position: relative;
+      padding-top: 56.25%; }
+      .yahoo-body .video-wrapper .video-wrapper-inner > div {
+        position: absolute;
+        top: 0;
+        width: 100% !important;
+        height: 100% !important; }
+  @media (max-width: 800px) {
+    .yahoo-body .ad {
+      width: calc(100% + 2em);
+      margin-left: -1em; } }
+  @media (min-width: 801px) {
+    .yahoo-body .ad {
+      width: 200%;
+      margin-left: -50%; }
+    .yahoo-body .video-wrapper-wrapper {
+      width: 150%;
+      margin-left: -25%; } }
+
+.yp-walking {
+  position: relative;
+  height: 350px;
+  margin: 0; }
+  .yp-walking .sprite {
+    background-image: url(../img/walk-sprite.png);
+    background-position: 0px 0px;
+    position: absolute;
+    height: 350px;
+    width: 416px; }
+
+.ad {
+  margin: 1em 0; }
+
+@media (max-width: 800px) {
+  .yahoo-cold-open {
+    line-height: 3em;
+    text-align: center;
+    margin: 0;
+    padding: 1em; }
+    .yahoo-cold-open img {
+      max-height: 3em; }
+      .yahoo-cold-open img:hover {
+        transform: none; }
+    .yahoo-cold-open big {
+      font-size: 1.5em; }
+      .yahoo-cold-open big.bigger {
+        font-size: 2em; }
+      .yahoo-cold-open big.lolbig {
+        font-size: 3em; }
+    .yahoo-cold-open .furniture {
+      margin: 1em 0 0 0;
+      font-size: 1em; }
+
+  .yahoo-cover {
+    padding: 0;
+    margin: 0; }
+    .yahoo-cover .main-flyer {
+      max-width: 100%;
+      margin: 0;
+      opacity: 1; }
+
+  .yahoo-body {
+    width: 100%;
+    padding: 1em; }
+    .yahoo-body p {
+      text-indent: 1.4em; }
+    .yahoo-body figure.toph-right, .yahoo-body figure.toph-left {
+      width: 100%;
+      float: none;
+      margin: 1em 0; } }
+
+/*# sourceMappingURL=override.css.map */
